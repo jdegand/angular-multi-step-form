@@ -96,7 +96,7 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [Angular]
+- [Angular](https://angular.io/)
 - [Angular CLI](https://github.com/angular/angular-cli) version 15.2.5.
 
 ### What I learned
