@@ -7,6 +7,7 @@ This is a solution to the [Multi-step form challenge on Frontend Mentor](https:/
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshots](#screenshots)
+  - [Link](#link)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -86,6 +87,10 @@ Users should be able to:
 ![](screenshots/angular-multi-step-desktop-5.png)
 
 ***
+
+## Link
+
+[Live Link](https://jdegand.github.io/angular-multi-step-form)
 
 ## My process
 
