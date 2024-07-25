@@ -20,7 +20,7 @@ export class AppComponent {
       ]),
       phone: new FormControl('', [
         Validators.required,
-        Validators.pattern('[1]{1} [0-9]{3} [0-9]{3} [0-9]{3}'),
+        Validators.pattern('[1]{1} [0-9]{3} [0-9]{3} [0-9]{4}'),
       ]),
     }),
     plans: new FormGroup({
