@@ -106,25 +106,25 @@ Users should be able to:
 
 ### What I learned
 
-I probably would use a library for a multi-step form.  But conceptually, I think it is important to understand what the libraries are doing to achieve the functionality.  I have used this design 3 times now and it is interesting to see the various complications that arise in making a multi-step form. 
+I would probably use a library for a multi-step form. But conceptually, I think it is important to understand what the libraries are doing to achieve the same functionality. I have used this design three times now, and it is interesting to see the various complications that arise in making a multi-step form.
 
-Not a lot of great resources on angular multi-step forms.
+There are not a lot of great resources on angular multi-step forms.
 
-Noticed an issue with past project's html where I used a div inside an li.  This is incorrect although it doesn't really affect the code.  
+I noticed an issue with the past project's html where I used a div inside an li. This is incorrect, although it doesn't really affect the code.
 
-Passing variables to a child component complicated matters here.  I had problems in passing the child's event object up to the parent.  I tried to use a FormArray and push the checkbox name to the array but ultimately, using a FormGroup and booleans made for easier development.  
+Passing variables to a child component complicated matters here. I had problems passing the child's event object up to the parent. I tried to use a FormArray and push the checkbox name to the array, but ultimately, using a FormGroup and booleans made for easier development.
 
-The calculation of the total value is not really optimized.  I carried over my previous idea of using a lookup object, whether it really helped or not is debatable.  The lookup object could be replaced with just more advanced ngIf conditionals in the html.  You could use ng-templates and else conditions for all values of the multiStep object.  
+The calculation of the total value is not really optimized. I carried over my previous idea of using a lookup object; whether it really helped or not is debatable. The lookup object could be replaced with just more advanced ngIf conditionals in the HTML. You could use ng-templates and `else` conditions for all values of the multiStep object.
 
-Carried over all styles from past implementation and placed them in the global styles.css file.  Segmenting the css code per component can be done later.  
+I carried over all styles from past implementations and placed them in the global `styles.css` file. Segmenting the CSS code per component can be done later.
 
-Problems with navbar styling.  The number circles are not lined up correctly with the step text.  I think a rework of the html may be required to help ensure they line up exactly.  
+Problems with navbar styling. The number circles are not lined up correctly with the step text. I think a rework of the HTML may be required to help ensure they line up exactly.
 
-Also, styling is weak because of an explicit height is not set different steps cause the container to shrink or grow.  I had the error messages originally appear under the inputs and that created a similar problem.  Having the error messages and labels inside the same div creates an issue on very small screens where the text will expand past one line.  
+Also, styling is weak because an explicit height is not set. Different steps cause the container to shrink or grow. I had the error messages originally appear under the inputs, and that created a similar problem. Having the error messages and labels inside the same div creates an issue on very small screens where the text will expand past one line.
 
 Although the original design doesn't disable the next button, I think it is a better approach that helps reduce writing extra checks in the submit method.
 
-Didn't use router.  Could have had the 'Thank You' screen be its own component and on its own route.  Could have put that component inside the form-container and toggled between the 2 components with an ngIf.  
+I didn't use a router. I could have had the 'Thank You' screen be its own component and on its own route. I could have put that component inside the `form-container` and toggled between the two components with an `ngIf`.
 
 ### Continued development
 
