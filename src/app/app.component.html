@@ -36,17 +36,8 @@
     </nav>
   </div>
   <div class="form-container">
-    <app-form
-      step="{{ step }}"
-      [costMap]="costMap"
-      [multiStep]="multiStep"
-      (submit)="submit()"
-      [yearlyToggle]="yearlyToggle"
-      (toggled)="term()"
-      (decrease)="decreaseStep()"
-      (increase)="increaseStep()"
-      (changeEvent)="change()"
-    ></app-form>
+    <app-form step="{{ step }}" [costMap]="costMap" [multiStep]="multiStep" (submit)="submit()"
+      [yearlyToggle]="yearlyToggle" (toggled)="term()" (decrease)="decreaseStep()" (increase)="increaseStep()"
+      (changeEvent)="change()"></app-form>
   </div>
 </div>
-<!--<pre>{{multiStep.value | json}}</pre>-->

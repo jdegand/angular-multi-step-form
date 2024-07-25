@@ -1,5 +1,5 @@
-import { Component, Output } from '@angular/core';
-import { FormArray, FormControl, FormGroup, Validators } from '@angular/forms';
+import { Component } from '@angular/core';
+import { FormControl, FormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
@@ -8,9 +8,7 @@ import { FormArray, FormControl, FormGroup, Validators } from '@angular/forms';
 })
 export class AppComponent {
   title = 'angular-multi-step-form';
-
   step = 1;
-
   yearlyToggle = false;
 
   multiStep = new FormGroup({
