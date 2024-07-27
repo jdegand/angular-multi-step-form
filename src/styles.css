@@ -228,14 +228,14 @@ input[type="email"] {
   width: 100%;
   border-radius: 4px;
   border: 2px solid var(--coolGray);
-  font-family: Ubuntu-Bold;
+  font-family: Ubuntu-Bold, sans-serif;
   line-height: 2;
 }
 
 ::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: var(--coolGray);
-  font-family: Ubuntu-Bold;
+  font-family: Ubuntu-Bold, sans-serif;
   opacity: 1;
   /* Firefox */
 }
@@ -243,7 +243,7 @@ input[type="email"] {
 :-ms-input-placeholder {
   /* Internet Explorer 10-11 */
   color: var(--coolGray);
-  font-family: Ubuntu-Bold;
+  font-family: Ubuntu-Bold, sans-serif;
 }
 
 ::-ms-input-placeholder {
